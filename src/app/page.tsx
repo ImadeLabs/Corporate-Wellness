@@ -1,17 +1,9 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Services from "@/components/Services";
-import Pricing from "@/components/Pricing";
-import Footer from "@/components/Footer";
-
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Services />
-      <Pricing />
-      <Footer />
-    </>
+    <main className="min-h-screen flex items-center justify-center">
+      <h1 className="text-5xl font-bold">
+        Corporate Wellness MVP
+      </h1>
+    </main>
   );
 }
